@@ -4,6 +4,7 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
+# gem 'bootstrap-sass', '~> 3.3.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -23,6 +24,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'coffee-script-source', '1.8.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -39,8 +41,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 #gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-gem 'angularjs-rails'
-gem 'angular-ui-bootstrap-rails'
+# gem 'angularjs-rails'
+# gem 'angular-ui-bootstrap-rails'
 
 # group :production do
 #   gem 'pg',            
