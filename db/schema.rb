@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150315121522) do
+ActiveRecord::Schema.define(version: 20150316185432) do
 
   create_table "clients", force: true do |t|
     t.string   "name"
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20150315121522) do
     t.text     "project_info"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "seed_url"
+    t.string   "data_output_format"
+    t.string   "image_file"
+    t.string   "document"
+    t.string   "sample_file"
+    t.string   "data_crawl_frequency"
+    t.text     "data_schema"
+    t.text     "other_requirement"
   end
 
 end
